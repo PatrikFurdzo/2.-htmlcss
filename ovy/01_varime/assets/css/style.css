@@ -18,15 +18,69 @@
 body {
     font-family: "Outfit", sans-serif;
     background-color: var(--stone100);
+    color: var(--stone600);
+    line-height: 30px;
+    font-size: 20px;
 }
 
 
 h1 {
      font-family: "Young Serif", serif;
+     letter-spacing: 1px;
+     font-weight: 500;
+     font-size: 30px;
+     color: var(--stone900);
 }
 
-main{
-    background-color: var(--White);
+main {
     margin: 0 auto;
-    width: 500;
+    background-color: var(--White);
+    width: 900px;
+    border-radius: 25px;
+    padding: 30px;
+
+}
+
+
+img {
+    width: inherit ;/*zdedí šírku po rodičovi*/
+    border-radius: inherit;
+    margin-bottom: 30px;
+}
+
+ h2 {
+    color: var(--brown800);
+    font-family: "Young Serif", serif;
+
+ }
+
+ .priprava_h2 {
+    color: var(--rose800);
+    font-family: "Outfit", serif;
+    font-weight: 600;
+    font-size: 25px;
+    background-color: var(--rose50);
+    padding-left: 20px;
+ }
+
+ .priprava {
+    background-color: var(--rose50);
+    padding-left: 20px;
+ }
+
+.tabulka_strong {
+    color: var(--brown800);
+    font-family: "Outfit", serif;
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 15px;
+    border-bottom: 1px solid var(--stone600);
+    
 }
