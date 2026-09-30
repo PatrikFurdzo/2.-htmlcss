@@ -24,3 +24,9 @@ body {
 h1 {
      font-family: "Young Serif", serif;
 }
+
+main{
+    background-color: var(--White);
+    margin: 0 auto;
+    width: 500;
+}
