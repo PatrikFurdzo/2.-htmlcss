@@ -1,0 +1,34 @@
+:root{
+  --tmavo-modra: #324759;
+  --svetlo-modra: #369AD9;
+  --šedá: #F0F2F2;
+  --červená: #D94141;
+  --slabo-červená: #F28888;
+  --biela: #FFFFFF;
+}
+.header{
+    
+    background-color: var(--tmavo-modra);
+    background-size: 250px; 
+    padding: 40px;
+    border-bottom: 5px solid var(--červená);
+    text-align: center;
+
+      
+}
+
+.body {
+ background-color: #F0F2F2;
+}
+
+.h1{
+ color: var(--biela);
+ font-size: 50px;
+ text-transform: uppercase;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header__h2{
+color: var(--svetlo-modra);
+ font-size: 20px;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
