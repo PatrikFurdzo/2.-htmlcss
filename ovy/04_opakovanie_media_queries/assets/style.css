@@ -1,0 +1,125 @@
+
+.h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    -webkit-text-fill-color: #324759;
+    text-align: center;
+}
+
+h2{
+    -webkit-text-fill-color: grey;
+    text-align: center;
+    
+
+}
+
+
+
+.Karta_1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+
+
+.button{
+    background-color: rgb(190, 142, 142);
+}
+
+.h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    -webkit-text-fill-color: #324759;
+    text-align: center;
+}
+
+h2{
+    -webkit-text-fill-color: grey;
+    text-align: center;
+}
+
+
+
+.Karta_1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+
+
+.button{
+    background-color: rgb(127, 169, 224);
+}
+
+.h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    -webkit-text-fill-color: #324759;
+    text-align: center;
+}
+
+h2{
+    -webkit-text-fill-color: grey;
+    text-align: center;
+}
+
+
+
+.Karta_1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+
+.button{
+    background-color: rgb(150, 190, 142);
+    border-color: white;
+}
+
+
+
+* 📱 Mobil – základ, bez media query */
+.produkty {
+  grid-template-columns: 1fr;
+}
+
+.tabulka__1{
+    -webkit-text-fill-color: white;
+    border-radius: 10px;
+    padding: 45px;
+    margin: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: red;
+
+}
+
+
+/* 📱➜💻 Tablet – od 768px */
+@media (min-width: 768px) {
+   
+.tabulka__1{
+    -webkit-text-fill-color: white;
+    border-radius: 10px;
+    padding: 45px;
+    margin: 45px;
+    background-color: rgb(61, 120, 230);
+}
+
+}
+
+/* 🖥️ Desktop – od 1024px */
+@media (min-width: 1024px) {
+  .produkty {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  }
+  
+.tabulka__1{
+    -webkit-text-fill-color: white;
+    border-radius: 10px;
+    padding: 45px;
+    margin: 45px;
+    background-color: rgb(56, 185, 78);
+
+}
+.main{
+    display: flex;
+}
